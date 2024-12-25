@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    background-image: url(../asssets/img/abstract-geometric-flat-design-background-free-vector.jpg);
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -19,13 +23,17 @@
 }
 
 .header-title {
+    color: red;
     margin-left: 8px;
 }
 
 .content {
+    align-items: center;
     font-weight: 800;
-    margin: 4px 8px;
+    width: 50%;
+    margin: 16px 20%;
     padding: 4px 4px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    color: rgb(194, 19, 19)
 }
 
